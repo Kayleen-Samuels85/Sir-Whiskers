@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #f69680;
+  font-family: "Playfair Display";
+}
+
+.short-line {
+  width: 27%; /* Adjust width to shorten or lengthen the line */
+  border: 1px solid #2e1263; /* change the color or thickness of the line */
+}
+
+h1 {
+  margin: 1px auto;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+img {
+  height: 250px;
+  width: 230px;
+  border-radius: 50%;
+}
+
+button {
+  margin: 10px auto 0; /* Reduce the space above the button */
+  padding: 10px 15px;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: #f69680;
+  border: 1px solid #2e1263;
+  text-decoration: none;
+  outline: none;
+  border-radius: 5%;
+}
+
+/*Use the :hover selector to change the style of the button when you move the mouse over it*/
+button:hover {
+  transition: 0.3s;
+  background-color: #2e1263;
+  color: #f69680;
+}
+
+p {
+  margin: 10px auto 0;
+  font-size: 20px;
+}
+
+#container {
+  /* Centers all the code in the container*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
